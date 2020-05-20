@@ -3,7 +3,7 @@ const str = 'nzzvy://skkz.muumrk.ius/mmv-wojh-ten';
 function unscramble(code, cycles) {
   const actualCycles = cycles % 52;
   
-  return str.split('').map(char => {
+  return str.split('').map(function (char) {
     var asciiCodeOfChar = char.charCodeAt();
     // first letter decimal code in ascii table
     // depending on being uppercase or lowercase
